@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movies</title>
+
+	<!-- Bootstrap v4.4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- clear logo -->
+	<link rel="stylesheet" href="css/style1.css">
+    <!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	
+</head>
+
+<body>
+
+    <!-- HEADER -->
+	<header class="head">
+        <nav >
+            <img src="https://dl.dropbox.com/s/bmq2ex6boqtxe6n/logo-imdb.jpg?=raw1" alt="" >
+            <div class="user">
+            <img src="images/DP.jpeg" alt="" class="user-photo">
+            <div class="user-name">SAMEER ANAND</div>
+        </div>
+        </nav>
+        <div class="header">
+        <h1>MAD MAX: FURY ROAD</h1>
+        <ul>
+            <li><a href="#"> Adventure </a></li>
+            <li><a href="#"> Sci-fi </a></li>
+            <li><a href="#">Terror </a></li>
+            
+        </ul>
+        <button class="trailer">Watch Trailer
+            <i class="fa fa-play-circle-o "></i>
+        </button>
+        
+         </div>
+    </header>
+
+    <section class="catalogue">
+        <nav class="nav-catalogue">
+            <ul>
+                <li><a href="index.html">IMDB</a></li>
+                <li><a href="favorite.html">FAVOURITES</a></li>
+            </ul>
+        </nav>
+        
+			<!-- Search Content -->
+	<div class="container">
+
+		<div class="row mt-3 justify-content-center">
+			<div class="col-md-8">
+				<h1 class="text-center">Search Movie</h1>
+				<div class="input-group mb-3">
+					<input type="text" id="search-input" class="form-control" placeholder="Search movie by title.." autocomplete="off" autofocus>
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" id="search-button">Search!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row" id="list-movie">
+
+		</div>
+
+	</div>
+             
+ </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img class="footer-logo" src="https://dl.dropbox.com/s/bmq2ex6boqtxe6n/logo-imdb.jpg?=raw1" alt="logo IMDB">
+            <ul >
+                <li class="twitter">
+                    <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="#">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="instagram">
+                    <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+    <!-- My Script -->
+    <script src="js/myscript.js"></script>
+</body>
+</html>
